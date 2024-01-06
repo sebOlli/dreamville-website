@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Text Change</title>
+</head>
+<body>
+
+<button id="myButton" onclick="changeText()">Click me</button>
+
+<script>
+  function changeText() {
+    var button = document.getElementById('myButton');
+    
+    // Change the text when the button is clicked
+    button.innerText = 'Clicked';
+    
+    // You can also disable the button to prevent multiple clicks if needed
+    // button.disabled = true;
+  }
+</script>
+
+</body>
+</html>
